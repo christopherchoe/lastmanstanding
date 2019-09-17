@@ -1,11 +1,8 @@
 from flask import Flask
+from templates import app
 
 
 app = Flask(__name__)
-
-@app.route('/')
-def hello_world():
-    return 'Hello Chris'
 
 
 if __name__ == '__main__':
