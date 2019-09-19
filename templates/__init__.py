@@ -2,8 +2,9 @@ from flask import Flask
 
 
 app = Flask(__name__,
-    static_folder='./static',
-    template_folder='./public')
+    static_folder='./public',
+    template_folder='./static')
 
-import templates.server.views
+from templates.server.views import lms_blueprint
 
+app.register_blueprint(lms_blueprint)

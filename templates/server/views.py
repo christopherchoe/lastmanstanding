@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-from templates import app
-from flask import render_template
+from flask import render_template, Blueprint
 
+
+lms_blueprint = Blueprint('lms', __name__)
 
 @app.route('/')
 def index():
