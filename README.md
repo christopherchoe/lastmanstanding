@@ -1,4 +1,6 @@
 # Last Man Standing
+WORK IN PROGRESS, WILL NOT WORK AS OF LAST UPDATE
+
 A web application that handles the work of running a Last Man Standing Football pool!
 
 ## Local Version
